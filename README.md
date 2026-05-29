@@ -1,12 +1,80 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, responsive personal portfolio website built with React, React Router, and Tailwind CSS
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Live Demo](https://my-portfolio.vercel.app)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive design (mobile, tablet, desktop)
+- React Router for smooth page navigation
+- Filterable projects section
+- Contact form with validation
+- Modern glassmorphism UI
+- Fast performance with Vite
+
+## Tech Stack
+
+- React 18
+- React Router DOM 6
+- Tailwind CSS 4
+- Vite
+
+## Pages
+
+- **Home** - Introduction and statistics
+- **About** - Personal story and tech stack
+- **Projects** - Showcase of work with filters
+- **Contact** - Contact form and social links
+- **404** - Custom not found page
+
+## Installation
+
+```bash
+git clone https://github.com/mohammad11jj/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+## Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   └── Layout.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   ├── AboutUs.jsx
+│   ├── Projects.jsx
+│   ├── ContactUs.jsx
+│   └── NotFound.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Contact
+
+**Mohammad Jalali**
+
+- Telegram: [@mohammad11jj](https://t.me/mohammad11jj)
+- LinkedIn: [jalalimohammad](https://www.linkedin.com/in/jalalimohammad/)
+- GitHub: [mohammad11jj](https://github.com/mohammad11jj)
+- Email: mohammad11jj@gmail.com
+
+## License
+
+MIT License
+
+---
+
+Made with ❤️ by Mohammad Jalali
